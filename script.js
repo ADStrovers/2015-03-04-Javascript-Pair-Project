@@ -14,7 +14,18 @@ var question_two = parseInt(prompt("Which of the following is not a football pos
 
 console.log(question_two)
 
-if (question_one === 2){
+if (question_two === 2){
+	alert("Correct!");
+  ++score
+} else {
+	alert("Wrong!");
+}
+
+var question_three = parseInt(prompt("In what country is Mount Everest located?\n1. Paraguay\n2. China\n3. Africa\n4. Tibet\n\nEnter the number of your choice below."));
+
+console.log(question_three)
+
+if (question_three === 4){
 	alert("Correct!");
   ++score
 } else {
