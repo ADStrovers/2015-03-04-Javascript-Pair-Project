@@ -31,3 +31,5 @@ if (question_three === 4){
 } else {
 	alert("Wrong!");
 }
+
+console.log("Your score is: " + score)
